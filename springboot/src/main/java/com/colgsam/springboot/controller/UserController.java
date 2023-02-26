@@ -9,6 +9,7 @@ import com.colgsam.springboot.controller.dao.UserDTO;
 import com.colgsam.springboot.entity.User;
 import com.colgsam.springboot.service.IUserService;
 import org.apache.commons.lang.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
